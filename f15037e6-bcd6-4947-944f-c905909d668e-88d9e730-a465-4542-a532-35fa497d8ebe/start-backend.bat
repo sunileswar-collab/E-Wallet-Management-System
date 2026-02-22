@@ -1,0 +1,6 @@
+@echo off
+echo Starting E-Wallet Backend...
+cd springapp
+echo Compiling and starting Spring Boot application...
+mvn clean spring-boot:run
+pause

@@ -1,0 +1,44 @@
+.transfer-funds-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.transfer-funds-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.transfer-funds-form select,
+.transfer-funds-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transfer-funds-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: #28a745;
+  margin-top: 10px;
+}
